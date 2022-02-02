@@ -15,9 +15,10 @@ console.log(Boolean(0)) */
 let variableNombre = 'Elvis'
 variableNombre = "Rodríguez"
 console.log('Valor de la Variable: ' + variableNombre)
-for (var i = 0; i < 5; i++) {
+for (let i = 0; i < 5; i++) {
     console.log(`aqui se ve let ${i}`)
 }
 console.log('esto dara error')
 console.log(`Valor final de i: ${i}`)
 console.log(i)
+console.log("La mejor manera de ver los cambios $(i")
