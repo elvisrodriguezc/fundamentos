@@ -1,0 +1,14 @@
+.content-row,
+.content-column{
+    display: flex;
+    /* flex-direction: row; */
+
+    gap: 16px;
+    padding: 16px;
+    background-color: lightblue;
+}
+
+.content-row > * {
+    width: 150px;
+    margin: 0px;
+}

@@ -1,0 +1,3 @@
+
+let students = [ { name: "Juan", lastname: "Perez", age: 20, course: "JS", note: 10 }, { name: "Pedro", lastname: "Gonzalez", age: 18, course: "JS", note: 8 }, { name: "Maria", lastname: "Lopez", age: 17, course: "JS", note: 11 }, { name: "Ana", lastname: "Martinez", age: 19, course: "JS", note: 9 }, { name: "Luis", lastname: "Poot", age: 35, course: "JS", note: 18 } ];
+

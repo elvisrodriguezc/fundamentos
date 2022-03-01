@@ -1,0 +1,118 @@
+/* Reglas CSS */
+/* 1) selector */
+/* 2) {propiedad: valor} */
+/* selector {
+  propiedad: valor;
+} */
+
+/* Tipo de selector - universal */
+
+* {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+}
+
+/* Tipo de selector - etiqueta */
+h1 {
+  color: blueviolet;
+}
+
+p {
+  color: brown;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 38px;
+}
+
+/* Tipo de selector - clases (.) */
+
+.color-primary {
+  color: rosybrown;
+}
+
+.txt-28 {
+  font-size: 28px;
+}
+
+.lista > li {
+  background-color: yellowgreen;
+}
+
+.lista span {
+  background-color: aquamarine;
+} 
+
+.item ~ li {
+  background-color: blue;
+}  
+
+.item2 + li {
+  background-color: gold;
+}
+
+/* Tipo de selector - id (#) */
+#texto {
+  font-size: 30px;
+  background-color: gainsboro;
+}
+
+#texto {
+  color: #fff;
+  background-color: red;
+  /* toma las propiedades de abajo */
+  background-color: blueviolet;
+}
+
+/* Tipo de selector - atributo (selector[atributo=valor]) */
+
+a[target="_blank"] {
+  /* color: palevioletred; */
+}
+
+.box {
+  background-color: blanchedalmond;
+  width: 200px;
+  height: 200px;
+}
+
+.box h2 {
+  background-color: blueviolet;
+  width: 150px;
+  height: 150px;
+  margin: 50px auto;
+  padding: 70px;
+}
+
+button {
+  background: #3ce444;
+  color: #000;
+  border: none;
+  padding: 8px 15px;
+}
+
+button:hover {
+  background-color: blueviolet;
+  color: #fff;
+  transition: .2s;
+}
+
+button:active {
+  background-color: red;
+}
+
+a:visited {
+  color: #3ce444;
+}
+
+
